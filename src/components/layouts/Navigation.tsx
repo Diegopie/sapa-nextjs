@@ -16,7 +16,7 @@ export default function Navigation() {
       {/* Background image with green overlay */}
       
       {/* Nav content */}
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative mx-auto px-4 sm:px-6 lg:px-8">
         <div className="absolute -z-10 inset-0 w-full h-full">
         <Image
           src="/images/TopHeaderImage.png"
