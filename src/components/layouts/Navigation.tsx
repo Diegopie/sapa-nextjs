@@ -29,31 +29,31 @@ export default function Navigation() {
         <div className="hidden md:flex justify-center space-x-12 pt-5">
           <Link
             href="/appointments"
-            className="text-ug-green-two hover:underline focus:underline font-interstate text-sm tracking-wider"
+            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
           >
             APPOINTMENTS
           </Link>
           <Link
             href="/medical-card-info"
-            className="text-ug-green-two hover:underline focus:underline font-interstate text-sm tracking-wider"
+            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
           >
             MEDICAL CARD INFO
           </Link>
           <Link
             href="/faqs"
-            className="text-ug-green-two hover:underline focus:underline font-interstate text-sm tracking-wider"
+            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
           >
             FAQs
           </Link>
           <Link
             href="/pharmacies"
-            className="text-ug-green-two hover:underline focus:underline font-interstate text-sm tracking-wider"
+            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
           >
             PHARMACIES
           </Link>
           <Link
             href="/about"
-            className="text-ug-green-two hover:underline focus:underline font-interstate text-sm tracking-wider"
+            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
           >
             ABOUT
           </Link>
@@ -136,31 +136,31 @@ export default function Navigation() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-ug-green-three shadow-lg">
             <Link
               href="/appointments"
-              className="hover:underline focus:underline text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
+              className="hover:underline focus:underline uppercase text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
             >
               APPOINTMENTS
             </Link>
             <Link
               href="/medical-card-info"
-              className="hover:underline focus:underline text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
+              className="hover:underline focus:underline uppercase text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
             >
               MEDICAL CARD INFO
             </Link>
             <Link
               href="/faqs"
-              className="hover:underline focus:underline text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
+              className="hover:underline focus:underline uppercase text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
             >
               FAQs
             </Link>
             <Link
               href="/pharmacies"
-              className="hover:underline focus:underline text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
+              className="hover:underline focus:underline uppercase text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
             >
               PHARMACIES
             </Link>
             <Link
               href="/about"
-              className="hover:underline focus:underline text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
+              className="hover:underline focus:underline uppercase text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
             >
               ABOUT
             </Link>
