@@ -26,7 +26,7 @@ const proximaNova = localFont({
       style: 'normal',
     },
   ],
-  variable: '--font-proxima',
+  variable: '--font-proximaNova',
   display: 'swap',
 });
 
