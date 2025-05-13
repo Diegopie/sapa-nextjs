@@ -1,15 +1,50 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Local fonts configuration
+const proximaNova = localFont({
+  src: [
+    {
+      path: '../../public/fonts/ProximaNova-Regular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+    // {
+    //   path: '../../public/fonts/ProximaNova-Semibold.otf',
+    //   weight: '600',
+    //   style: 'normal',
+    // },
+    {
+      path: '../../public/fonts/ProximaNova-Bold.otf',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/ProximaNova-Extrabold.otf',
+      weight: '800',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-proxima',
+  display: 'swap',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const interstateCond = localFont({
+  src: [
+    {
+      path: '../../public/fonts/InterstateCondensed-Light.otf',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/InterstateCondensed-Regular.otf',
+      weight: '400',
+      style: 'normal',
+    },
+  ],
+  variable: '--font-interstate',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -25,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${proximaNova.variable} ${interstateCond.variable} antialiased`}
       >
         {children}
       </body>

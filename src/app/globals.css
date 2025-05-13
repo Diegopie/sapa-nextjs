@@ -12,6 +12,20 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+  --color-ug-green-one: #103c00;
+  --color-ug-green-two: #35711f;
+  --color-ug-green-three: #60a543;
+  --color-ug-green-four: #e6efc5;
+
+  --color-ug-tan-one: #4f463c;
+  --color-ug-tan-two: #e7cbaf;
+
+  --color-ug-grey-one: #333333;
+  --color-ug-grey-two: #808080;
+  --color-ug-grey-three: #f2f2f2;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
