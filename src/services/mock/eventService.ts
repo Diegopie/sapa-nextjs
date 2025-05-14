@@ -60,7 +60,6 @@ export async function getEvents(limit?: number): Promise<Events[]> {
     }
   ];
   
-  
   const now = new Date();
   
   // Only serve future events
@@ -72,6 +71,5 @@ export async function getEvents(limit?: number): Promise<Events[]> {
   if (limit && limit > 0) {
     return futureEvents.slice(0, limit);
   }
-  
   return futureEvents;
 }

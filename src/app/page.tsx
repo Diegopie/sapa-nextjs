@@ -4,6 +4,7 @@ import { AdContainerFull } from "@components/ui/AdContainer";
 import { TilePanels } from "@components/ui/TilePanels";
 import { ReviewBannerLg } from "@components/ui/ReviewBanner";
 import Faq from "@components/layouts/Faq";
+import HpPharmacies from "./components/HpPharmacies";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <ReviewBannerLg />
       </section>
       <Faq />
+      <HpPharmacies />
     </main>
   );
 }
