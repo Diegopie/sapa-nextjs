@@ -8,7 +8,7 @@ type FaqItem = {
 export default function Faq() {
   const faqData: FaqItem[] = [
     {
-      question: "If I don't qualify, do i still have to pay the QMP?",
+      question: "If I don't qualify, do I still have to pay the QMP?",
       answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisi vel consectetur euismod, nisi velit condimentum nisi, nec ullamcorper nisi nisi vel nisi. Nullam euismod, nisi vel consectetur euismod, nisi velit condimentum nisi."
     },
     {
