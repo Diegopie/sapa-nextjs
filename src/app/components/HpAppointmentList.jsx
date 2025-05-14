@@ -13,7 +13,7 @@ export default function HpAppointmentList() {
       <ol className="list-none p-0 m-0">
         {/* Step 1: Registration */}
         <li className="mb-10 flex gap-10" aria-labelledby='listItem-01'>
-          <div className="bg-ug-green-two text-white w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold">
+          <div className="bg-ug-green-two text-white w-12 h-12 md:w-20 md:h-20 rounded-full flex items-center justify-center text:xl md:text-2xl font-bold">
             1.
           </div>
           <div className='w-4/5'>
@@ -41,7 +41,7 @@ export default function HpAppointmentList() {
         </li>
         {/* Step 2: QMP Check-in */}
         <li className="mb-10 flex gap-10" aria-labelledby='listItem-02'>
-          <div className="bg-ug-green-two text-white w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold">
+          <div className="bg-ug-green-two text-white w-12 h-12 md:w-20 md:h-20 rounded-full flex items-center justify-center text:xl md:text-2xl font-bold">
             2.
           </div>
           <div className='w-4/5'>
@@ -57,7 +57,7 @@ export default function HpAppointmentList() {
 
         {/* Step 3: Renewal or New Patient */}
         <li className="mb-10 flex gap-10" aria-labelledby='listItem-03'>
-          <div className="bg-ug-green-two text-white w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold">
+          <div className="bg-ug-green-two text-white w-12 h-12 md:w-20 md:h-20 rounded-full flex items-center justify-center text:xl md:text-2xl font-bold">
             3.
           </div>
           <div className='w-4/5'>
