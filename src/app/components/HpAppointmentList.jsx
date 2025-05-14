@@ -4,8 +4,11 @@ import React from 'react';
 
 export default function HpAppointmentList() {
   return (
-    <section className="">
-      <h2 className="text-primary text-3xl font-bold mb-8 text-center">Things to know before your appointment</h2>
+    <section role="region" aria-labelledby='appointment-header'>
+      <h2
+        id="appointment-header"
+        className="text-primary text-3xl font-bold mb-8 text-center"
+      >Things to know before your appointment</h2>
 
       <ol className="list-none p-0 m-0">
         {/* Step 1: Registration */}
@@ -13,7 +16,7 @@ export default function HpAppointmentList() {
           <div className="bg-ug-green-two text-white w-20 h-20 rounded-full flex items-center justify-center text-2xl font-bold">
             1.
           </div>
-          <div  className='w-4/5'>
+          <div className='w-4/5'>
             <h3 id="listItem-01" className="text-xl font-bold text-primary mb-4">You're going to register with the state of Utah. You can start this before you arrive.</h3>
 
             <div className="mb-4 flex flex-col gap-4">
