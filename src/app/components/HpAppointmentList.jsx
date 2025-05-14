@@ -1,5 +1,3 @@
-// filepath: c:\Users\Diego Hernandez Nava\Code\sandbox\sapa-nextjs\src\app\components\HpAppointmentList.jsx
-
 import React from 'react';
 
 export default function HpAppointmentList() {
