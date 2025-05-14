@@ -2,7 +2,7 @@ import { services } from "@services/index";
 import EventCard from "@components/ui/EventCard";
 import { Events } from "@models/index";
 
-export default async function HpAppointments() {
+export default async function HpEvents() {
   // Fetch the top 3 upcoming events (server component)
   const events = await services.eventsService.getEvents(3);
   
