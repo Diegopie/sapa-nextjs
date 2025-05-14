@@ -3,6 +3,7 @@ import HpAppointmentList from "./components/HpAppointmentList";
 import { AdContainerFull } from "@components/layouts/AdContainer";
 import { TilePanels } from "@components/layouts/TilePanels";
 import { ReviewBannerLg } from "@components/layouts/ReviewBanner";
+import Faq from "@components/layouts/Faq";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <section role="region" aria-label="Customer reviews">
         <ReviewBannerLg />
       </section>
+      <Faq />
     </main>
   );
 }
