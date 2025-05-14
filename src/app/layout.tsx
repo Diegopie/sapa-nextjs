@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import LargeNavigation from "@/components/layouts/LargeNavigation";
+import Footer from "@/components/layouts/Footer";
 
 // Local fonts configuration
 const proximaNova = localFont({
@@ -62,7 +64,9 @@ export default function RootLayout({
       <body
         className={`${proximaNova.variable} ${interstateCond.variable} antialiased`}
       >
+        <LargeNavigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
