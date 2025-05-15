@@ -5,9 +5,8 @@ import Image from 'next/image'
 
 export default function Footer () {
 
-
   return (
-    <footer className="pt-4">
+    <footer className="pt-4 border-t-2 border-ug-green-two">
         <div className="flex flex-wrap items-baseline gap-4 justify-center md:justify-normal md:ml-32">
           {/* Move high res images to cdn */}
           <Image
@@ -21,7 +20,7 @@ export default function Footer () {
         </div>
         <div className="bg-green-800 text-white mt-2">
           <div className=" max-w-7xl mx-auto h-22 flex flex-wrap justify-center md:justify-end md:mr-10 pt-4">
-            <div className="flex space-x-6">
+            <div className="flex space-x-6 px-6">
               <p className="text-sm">©2023 All Rights Reserved.</p>
               <Link
                 href="/terms"

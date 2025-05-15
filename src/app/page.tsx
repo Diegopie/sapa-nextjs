@@ -5,10 +5,16 @@ import { TilePanels } from "@components/ui/TilePanels";
 import { ReviewBannerLg } from "@components/ui/ReviewBanner";
 import Faq from "@components/layouts/Faq";
 import HpPharmacies from "./components/HpPharmacies";
+import HpAboutUs from "./components/HpAboutUs";
 
 export default function Home() {
   return (
-    <main className="flex-grow bg-white sm:p-12 p-6 md:px-32 max-w-5xl mx-auto 2xl:max-w-7xl">
+    <main className="flex-grow mt-2 px-10 md:px-32 max-w-5xl mx-auto 2xl:max-w-7xl">
+      <div className="text-center pb-6">
+        <h1 className="font-interstate font-light text-ug-green-two text-2xl">
+          Utah&apos;s Cannabis Community
+        </h1>
+      </div>
       <HpEvents />
       <HpAppointmentList />
       <AdContainerFull />
@@ -33,6 +39,7 @@ export default function Home() {
       </section>
       <Faq />
       <HpPharmacies />
+      <HpAboutUs />
     </main>
   );
 }
