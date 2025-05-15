@@ -14,18 +14,18 @@ export default function LargeNavigation() {
   return (
     <nav className="relative w-full">
       {/* Background image with green overlay */}
-      
+
       {/* Nav content */}
       <div className="relative mx-auto px-4 sm:px-6 lg:px-8">
         <div className="absolute -z-10 inset-0 w-full h-full">
-        <Image
-          src="/images/TopHeaderImage.png"
-          alt=""
-          fill
-          className="object-cover"
-          priority
-        />
-      </div>
+          <Image
+            src="/images/TopHeaderImage.png"
+            alt=""
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
         <div className="hidden md:flex justify-center space-x-12 pt-5">
           <Link
             href="/appointments"
@@ -103,7 +103,7 @@ export default function LargeNavigation() {
             )}
           </button>
         </div>
-        
+
         <div className="flex justify-center py-6">
           <Link href="/">
             <div className="flex flex-col items-center">
@@ -118,17 +118,10 @@ export default function LargeNavigation() {
             </div>
           </Link>
         </div>
-
-        {/* Utah's Cannabis Community text */}
-        
       </div>
+
+      <div className="h-10 bg-[#215a2c]"></div>
       
-      <div className="h-12 bg-[#215a2c]"></div>
-      <div className="text-center pb-6">
-          <p className="font-interstate text-ug-green-two text-lg">
-            Utah&apos;s Cannabis Community
-          </p>
-        </div>
 
       {/* Mobile menu */}
       {isMobileMenuOpen && (

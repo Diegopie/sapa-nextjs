@@ -30,24 +30,24 @@ export default function EventCard({ event }: EventCardProps) {
   const formattedEndTime = formatStartEnd(endDateObj)
   
   return (
-    <div className="flex flex-col md:flex-row flex-wrap bg-gray-100 rounded-lg overflow-hidden border border-gray-200 items-center">
+    <div className="flex flex-col md:flex-row flex-wrap bg-gray-100 rounded-lg border-1 border-ug-green-three items-center">
       {/* Left side - Location */}
-      <div className="md:w-1/4 py-6 px-4 flex items-center justify-center text-center">
-        <h3 className="text-green-800 font-interstate font-medium text-3xl md:text-2xl">
+      <div className="md:w-1/4 py-2 px-4 flex items-center justify-center text-center">
+        <h3 className="text-green-800 font-interstate font-light text-3xl md:text-2xl">
           {event.location}
           {event.city && <span><br />{event.city}</span>}
         </h3>
       </div>
       
       {/* Middle - Date and Time */}
-      <div className="md:w-2/4 py-6 px-4">
-        <p className="text-green-900 font-interstate font-semibold text-3xl md:text-4xl mb-1">
+      <div className="md:w-2/4 py-4 px-4">
+        <p className="text-green-900 font-proximaNova font-semibold text-2xl md:text-3xl mb-0.5">
           {dayName}, {monthName} {day}<sup className="text-xs font-normal">{datePrefix}</sup> {year}
         </p>        
-        <p className="text-green-700 text-xl md:text-2xl font-interstate">
+        <p className="text-green-700 text-lg md:text-xl font-interstate mb-0.5">
           {formattedStartTime} - {formattedEndTime}
         </p>
-        <p className="text-green-700 text-xl md:text-2xl font-interstate mt-1">
+        <p className="text-green-700 text-lg md:text-xl font-interstate">
           {event.type}
         </p>
       </div>
@@ -56,7 +56,7 @@ export default function EventCard({ event }: EventCardProps) {
       <div className="md:w-1/4 py-6 px-4 flex items-center justify-center">
         <Link 
           href="/appointments" 
-          className="bg-orange-200 text-gray-800 text-2xl px-6 py-2 rounded-full font-interstate hover:bg-orange-300 transition-colors text-center"
+          className="bg-orange-200 text-ug-green-two text-xl px-6 py-2 rounded-full font-interstate hover:bg-orange-300 transition-colors text-center"
         >
           Book Time
         </Link>

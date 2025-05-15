@@ -8,7 +8,7 @@ export default function HpAboutUs() {
           <h2 className="text-3xl font-proximaNova font-bold text-ug-green-two mb-4">
             About Utah Grown
           </h2>
-          <p className="font-interstate text-black smd:text-ug-grey-two">
+          <p className="font-interstate text-black md:text-ug-grey-two">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
@@ -20,7 +20,7 @@ export default function HpAboutUs() {
             Utah Grown Office
           </h3>
           <a
-          className="font-interstate text-black smd:text-ug-grey-two text-xl"
+          className="font-interstate text-black md:text-ug-grey-two text-xl"
             aria-label="Utah grown on google maps"
             href="https://www.google.com/maps/place/Utah+Grown/@40.7533586,-111.8911626,17z/data=!3m1!4b1!4m6!3m5!1s0x8752f5db51b53a3f:0xd096267f94d4b645!8m2!3d40.7533586!4d-111.8885877!16s%2Fg%2F11l6vp011c?entry=ttu&g_ep=EgoyMDI1MDUxMi4wIKXMDSoASAFQAw%3D%3D"
           >
