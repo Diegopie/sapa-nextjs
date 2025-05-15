@@ -1,11 +1,10 @@
 export interface Events {
   id: string;
-  date: string;         // ISO date string (kept for compatibility and filtering)
-  startTime: string;    // Full ISO datetime string with timezone
-  endTime: string;      // Full ISO datetime string with timezone
+  date: string;
+  startTime: string;
+  endTime: string;
   location: string;
   city: string;
   type: string;
-  isSpecialEvent?: boolean;
-  specialEventName?: string;
+  site: string;
 }

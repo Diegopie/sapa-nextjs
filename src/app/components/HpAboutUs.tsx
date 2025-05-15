@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HpAboutUs() {
   return (
-    <section className="mt-18 relative" role="region" aria-label="Normalize It Utah">
+    <section className="mt-18 relative" role="region" aria-label="Normalize It Utah" id="#about">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="w-full md:w-1/2">
           <h2 className="text-3xl font-proximaNova font-bold text-ug-green-two mb-4">
@@ -33,11 +33,11 @@ export default function HpAboutUs() {
       </div>
       <Image
             src="/images/NormalizeItUtah@2x.png"
-            alt="Normalize It Utah"
+            alt=""
             width={480}
             height={380}
             priority
-            className="absolute -right-12 -bottom-24 smd:-right-24 smd:-bottom-36 -z-10 opacity-40 md:opacity-100"
+            className="absolute -right-12 -bottom-24 smd:-right-24 -z-10 opacity-40 md:opacity-100"
           />
     </section>
   );

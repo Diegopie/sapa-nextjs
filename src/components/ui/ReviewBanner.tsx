@@ -6,7 +6,7 @@ export function ReviewBannerLg() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/ReviewBanner@2x.png"
-          alt="Review banner background"
+          alt=""
           fill
           priority
           className="object-cover rounded-lg"
@@ -18,9 +18,8 @@ export function ReviewBannerLg() {
             We&apos;d love to hear from you!
           </h2>
           <a
-            href="#review-form"
+            href="https://forms.gle/ei9FEHBKBWwhs82TA"
             className="bg-orange-200 text-gray-800 text-2xl px-6 py-2 rounded-full font-interstate hover:bg-orange-300 transition-colors text-center"
-            aria-label="Leave a review"
           >
             Review us here!
           </a>

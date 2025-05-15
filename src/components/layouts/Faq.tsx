@@ -58,6 +58,7 @@ export default function Faq() {
       className="mt-16 mb-12 max-w-5xl mx-auto" 
       role="region"
       aria-label="Frequently Asked Questions"
+      id="#faqs"
     >
       <h2 className="text-3xl font-proximaNova font-bold mb-8 text-ug-green-one">FAQs...</h2>
       

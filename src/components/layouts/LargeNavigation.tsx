@@ -19,12 +19,6 @@ function MobileMenu() {
     }
   };
 
-  const handleFocusTrap = (e: React.KeyboardEvent) => {
-    console.log('hit', e.key);
-    if (e.key === "Tab" || e.key === "ArrowDown") {
-      menuButtonRef.current?.focus();
-    }
-  };
 
   return (
     <div onKeyDown={handleKeyDown}>
@@ -114,11 +108,11 @@ function MobileMenu() {
                 PHARMACIES
               </Link>
             </li>
-            <li>
+            <li> 
               <Link
                 href="#about"
                 className="hover:underline focus:underline uppercase text-ug-green-one block px-3 py-2 font-interstate text-sm font-semibold tracking-wider"
-                onKeyDown={handleFocusTrap}
+                
               >
                 ABOUT
               </Link>
@@ -146,38 +140,48 @@ export default function LargeNavigation() {
             priority
           />
         </div>
-        <div className="hidden md:flex justify-center md:space-x-20 pt-8">
-          <Link
-            href="#appointments"
-            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
-          >
-            APPOINTMENTS
-          </Link>
-          <Link
-            href="#medical-card-info"
-            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
-          >
-            MEDICAL CARD INFO
-          </Link>
-          <Link
-            href="#faqs"
-            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
-          >
-            FAQs
-          </Link>
-          <Link
-            href="#pharmacies"
-            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
-          >
-            PHARMACIES
-          </Link>
-          <Link
-            href="#about"
-            className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
-          >
-            ABOUT
-          </Link>
-        </div>
+        <ul className="hidden md:flex justify-center md:space-x-20 pt-8">
+          <li>
+            <Link
+              href="#appointments"
+              className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
+            >
+              APPOINTMENTS
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#medical-card-info"
+              className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
+            >
+              MEDICAL CARD INFO
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#faqs"
+              className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
+            >
+              FAQs
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#pharmacies"
+              className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
+            >
+              PHARMACIES
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#about"
+              className="text-ug-green-two hover:underline focus:underline uppercase font-interstate text-sm tracking-wider"
+            >
+              ABOUT
+            </Link>
+          </li>
+        </ul>
 
         <MobileMenu />
 

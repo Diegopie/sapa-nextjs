@@ -12,7 +12,7 @@ export default async function HpPharmacies() {
     const pharmacies = await fetchPharmacies(10);
     
     return (
-      <section className='mt-12' role="region" aria-label="Utah medical cards info">
+      <section className='mt-12' role="region" aria-label="Utah medical cards info" id="#pharmacies">
           <h2 className="text-3xl font-bold text-green-900 mb-8">Utah Medical Cannabis Pharmacies</h2>
           <PharmaciesList pharmacies={pharmacies} />
       </section>
@@ -21,7 +21,7 @@ export default async function HpPharmacies() {
     console.error("Error fetching pharmacies:", error);
     
     return (
-      <section className='mt-12' role="region" aria-label="Utah medical cards info">
+      <section className='mt-12' role="region" aria-label="Utah medical cards info" id="#pharmacies">
           <h2 className="text-3xl font-bold text-green-900 mb-8">Utah Medical Cannabis Pharmacies</h2>
           <div className="text-center py-8">
             Unable to load pharmacy data. Please try again later.
