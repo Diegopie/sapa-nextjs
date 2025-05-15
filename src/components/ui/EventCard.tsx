@@ -55,7 +55,7 @@ export default function EventCard({ event }: EventCardProps) {
       {/* Right side - Book Button */}
       <div className="md:w-1/4 py-6 px-4 flex items-center justify-center">
         <Link 
-          href="/appointments" 
+          href={event.site}
           className="bg-orange-200 text-ug-green-two text-xl px-6 py-2 rounded-full font-interstate hover:bg-orange-300 transition-colors text-center"
         >
           Book Time

@@ -9,7 +9,8 @@ export async function getEvents(limit?: number): Promise<Events[]> {
       city: "SLC",
       startTime: "2025-05-17T09:00:00-06:00",
       endTime: "2025-05-17T14:00:00-06:00",
-      type: "New Patients and Renewals"
+      type: "New Patients and Renewals",
+      site: "https://tidycal.com/diegopie/hire-diego"
     },
     {
       id: "2",
@@ -18,7 +19,8 @@ export async function getEvents(limit?: number): Promise<Events[]> {
       city: "UT",
       startTime: "2025-05-23T09:00:00-06:00",
       endTime: "2025-05-23T16:00:00-06:00",
-      type: "Renewals Only"
+      type: "Renewals Only",
+      site: "https://tidycal.com/diegopie/hire-diego"
     },
     {
       id: "3",
@@ -28,8 +30,7 @@ export async function getEvents(limit?: number): Promise<Events[]> {
       startTime: "2025-06-05T10:00:00-06:00",
       endTime: "2025-06-05T14:00:00-06:00",
       type: "Special Event for Veterans",
-      isSpecialEvent: true,
-      specialEventName: "Veterans"
+      site: "https://tidycal.com/diegopie/hire-diego"
     },
     {
       id: "4",
@@ -38,7 +39,8 @@ export async function getEvents(limit?: number): Promise<Events[]> {
       city: "UT",
       startTime: "2025-06-15T11:00:00-06:00",
       endTime: "2025-06-15T17:00:00-06:00",
-      type: "New Patients Only"
+      type: "New Patients Only",
+      site: "https://tidycal.com/diegopie/hire-diego"
     },
     {
       id: "5",
@@ -47,7 +49,8 @@ export async function getEvents(limit?: number): Promise<Events[]> {
       city: "UT",
       startTime: "2025-07-02T10:00:00-06:00",
       endTime: "2025-07-02T15:00:00-06:00",
-      type: "New Patients and Renewals"
+      type: "New Patients and Renewals",
+      site: "https://tidycal.com/diegopie/hire-diego"
     },
     {
       id: "6",
@@ -56,7 +59,8 @@ export async function getEvents(limit?: number): Promise<Events[]> {
       city: "UT",
       startTime: "2025-07-18T09:00:00-06:00",
       endTime: "2025-07-18T14:00:00-06:00",
-      type: "Renewals Only"
+      type: "Renewals Only",
+      site: "https://tidycal.com/diegopie/hire-diego"
     }
   ];
   

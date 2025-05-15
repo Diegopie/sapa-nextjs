@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function HpAppointmentList() {
   return (
-    <section role="region" aria-labelledby="appointment-header">
+    <section role="region" aria-labelledby="appointment-header" id="#medical-card-info">
       <h2
         id="appointment-header"
         className="text-primary text-3xl font-bold mb-8 text-center"

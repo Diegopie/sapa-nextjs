@@ -7,6 +7,7 @@ export default async function HpEvents() {
 
   return (
     <section 
+      id="appointments"
       className="max-w-7xl mx-auto mb-16"
       role="region"
       aria-label="Upcoming Utah Medical Card Events"
