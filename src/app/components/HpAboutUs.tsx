@@ -4,7 +4,7 @@ export default function HpAboutUs() {
   return (
     <section className="mt-18 relative" role="region" aria-label="Normalize It Utah" id="#about">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 mb-18">
           <h2 className="text-3xl font-proximaNova font-bold text-ug-green-two mb-4">
             About Utah Grown
           </h2>
