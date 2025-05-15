@@ -5,6 +5,7 @@ import { TilePanels } from "@components/ui/TilePanels";
 import { ReviewBannerLg } from "@components/ui/ReviewBanner";
 import Faq from "@components/layouts/Faq";
 import HpPharmacies from "./components/HpPharmacies";
+import HpAboutUs from "./components/HpAboutUs";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       </section>
       <Faq />
       <HpPharmacies />
+      <HpAboutUs />
     </main>
   );
 }
