@@ -5,9 +5,8 @@ import Image from 'next/image'
 
 export default function Footer () {
 
-
   return (
-    <footer className="pt-4">
+    <footer className="pt-4 border-t-2 border-ug-green-two">
         <div className="flex flex-wrap items-baseline gap-4 justify-center md:justify-normal md:ml-32">
           {/* Move high res images to cdn */}
           <Image

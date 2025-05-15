@@ -9,7 +9,7 @@ import HpAboutUs from "./components/HpAboutUs";
 
 export default function Home() {
   return (
-    <main className="flex-grow bg-white sm:p-12 p-6 md:px-32 max-w-5xl mx-auto 2xl:max-w-7xl">
+    <main className="flex-grow sm:p-12 p-6 md:px-32 max-w-5xl mx-auto 2xl:max-w-7xl">
       <HpEvents />
       <HpAppointmentList />
       <AdContainerFull />
