@@ -1,3 +1,3 @@
 # Hi
 
-[https://sapa-nextjs-git-main-diegopies-projects.vercel.app/](Live site)
+[Live site](https://sapa-nextjs-git-main-diegopies-projects.vercel.app)
